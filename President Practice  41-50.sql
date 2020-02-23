@@ -42,8 +42,8 @@ having count (state_born) > 1
  
 SELECT party , max(death_age)
 FROM PRESIDENT
-group by party ,death_age is not null
-and death_age < 0
+where death_age is not null
+group by party ,death_age 
 
 -- 47.	Organize a group of presidents at the age of death and count the number of presidents who have died at that age.(Age range)
  
@@ -57,8 +57,8 @@ group by death_age
  
 SELECT party , max(death_age) ,min(death_age)
 FROM PRESIDENT
-group by party ,death_age is not null
-and death_age < 0
+group by party 
+
 
 -- 49.	Shows the number of presidents at the age of death on average, the number of years that is the largest and least president of each state in which the president is born.
  

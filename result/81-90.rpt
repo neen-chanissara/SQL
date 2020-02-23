@@ -1,0 +1,144 @@
+﻿elect1,birth_yr
+Adams J Q       ,1767
+Harrison B      ,1833
+Harrison W H    ,1773
+Hoover H C      ,1874
+Jefferson T     ,1743
+Roosevelt T     ,1858
+Taft W H        ,1857
+Van Buren M     ,1782
+
+(8 rows affected)
+
+pres_name,c1
+Buchanan J      ,1
+Cleveland G     ,2
+Coolidge C      ,2
+Eisenhower D D  ,2
+Grant U S       ,2
+Jackson A       ,2
+Jefferson T     ,2
+Johnson L B     ,2
+Lincoln A       ,2
+Madison J       ,2
+McKinley W      ,2
+Monroe J        ,2
+Nixon R M       ,2
+Roosevelt F D   ,4
+Truman H S      ,2
+Washington G    ,2
+Warning: Null value is eliminated by an aggregate or other SET operation.
+
+(16 rows affected)
+
+NAM1,nr_cnt
+Coolidge C      ,2
+Eisenhower D D  ,2
+Johnson L B     ,2
+McKinley W      ,2
+Nixon R M       ,2
+
+(5 rows affected)
+
+candidate,votes,VOT
+Roosevelt F D   ,523,98.4934086629002
+
+(1 row affected)
+
+pres_name
+Adams J         
+Arthur C A      
+Coolidge C      
+Fillmore M      
+Ford G R        
+Jefferson T     
+Johnson A       
+Johnson L B     
+Nixon R M       
+Roosevelt T     
+Truman H S      
+Tyler J         
+Van Buren M     
+
+(13 rows affected)
+
+pres_name
+Adams J Q       
+Buchanan J      
+Carter J E      
+Cleveland G     
+Eisenhower D D  
+Garfield J A    
+Grant U S       
+Harding W G     
+Harrison B      
+Harrison W H    
+Hayes R B       
+Hoover H C      
+Jackson A       
+Kennedy J F     
+Lincoln A       
+Madison J       
+McKinley W      
+Monroe J        
+Pierce F        
+Polk J K        
+Reagan R        
+Roosevelt F D   
+Taft W H        
+Taylor Z        
+Washington G    
+Wilson W        
+
+(26 rows affected)
+
+pres_name
+Arthur C A      
+Johnson A       
+Tyler J         
+
+(3 rows affected)
+
+pres_name,pr_age
+Carter J E      ,21
+Eisenhower D D  ,25
+Fillmore M      ,26
+Garfield J A    ,26
+Grant U S       ,26
+Harding W G     ,25
+Harrison B      ,20
+Harrison W H    ,22
+Hoover H C      ,24
+Jackson A       ,26
+Johnson A       ,18
+Johnson L B     ,26
+Roosevelt F D   ,23
+Roosevelt T     ,22
+Taylor Z        ,25
+Tyler J         ,23
+Van Buren M     ,24
+Washington G    ,26
+
+(18 rows affected)
+
+pres_name,age
+Coolidge C      ,33
+Eisenhower D D  ,25
+Harding W G     ,25
+Jackson A       ,26
+McKinley W      ,27
+Roosevelt T     ,22
+Roosevelt T     ,28
+Truman H S      ,35
+Washington G    ,26
+Wilson W        ,58
+
+(10 rows affected)
+
+pres_name
+Buchanan J      
+
+(1 row affected)
+
+
+Completion time: 2020-02-23T22:42:23.6466351+07:00

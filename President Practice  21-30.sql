@@ -46,8 +46,9 @@ where pr_age - 2 > sp_age
 
 -- 29.	Shows the average of the age of the president and the wife's age while married.
  
-select avg(pr_age / sp_age)
+select avg(pr_age - sp_age)
 from PRES_MARRIAGE
+
 
 
 -- 30.	Show details of marriages of presidents who are less than two years younger than their wives.

@@ -2,8 +2,8 @@
 -- 31.	Find the maximum, minimum, Of the ratio between years in position and age at the expiration of a death, as a percentage of only the President who has passed away.
  
 
-SELECT MAX(CAST(YRS_SERV AS FLOAT)/CAST(DEATH_AGE AS FLOAT))*100, 
-	MIN(CAST(YRS_SERV AS FLOAT)/CAST(DEATH_AGE AS FLOAT))*100
+SELECT MAX(CAST(YRS_SERV AS FLOAT)/CAST(DEATH_AGE AS FLOAT))*100 as MAX_, 
+	MIN(CAST(YRS_SERV AS FLOAT)/CAST(DEATH_AGE AS FLOAT))*100 as MIN_
                   FROM PRESIDENT
                   WHERE DEATH_AGE>0;
 

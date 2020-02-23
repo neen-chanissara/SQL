@@ -1,0 +1,147 @@
+﻿pres_name,
+Reagan R        ,4
+Tyler J         ,15
+
+(2 rows affected)
+
+pres_name,spouse_name
+Garfield J A    ,Rudolph L       
+Harrison W H    ,Symmes A T      
+Hayes R B       ,Webb L W        
+Jefferson T     ,Skelton M W     
+Roosevelt F D   ,Roosevelt A E   
+Taylor Z        ,Smith M M       
+Tyler J         ,Christian L     
+Tyler J         ,Gardiner J      
+
+(8 rows affected)
+
+party
+Demo-Rep   
+Democratic 
+Federalist 
+Republican 
+Whig       
+
+(5 rows affected)
+
+party,
+Republican ,9
+
+(1 row affected)
+
+state_born
+Texas          
+
+(1 row affected)
+
+party,
+Democratic ,46
+Republican ,49
+Democratic ,53
+Republican ,56
+Republican ,57
+Republican ,58
+Republican ,60
+Democratic ,63
+Republican ,63
+Democratic ,64
+Democratic ,65
+Whig       ,65
+Democratic ,66
+Democratic ,67
+Federalist ,67
+Republican ,67
+Whig       ,68
+Republican ,70
+Democratic ,71
+Whig       ,71
+Republican ,72
+Demo-Rep   ,73
+Whig       ,74
+Democratic ,77
+Democratic ,78
+Democratic ,79
+Republican ,79
+Demo-Rep   ,80
+Demo-Rep   ,83
+Demo-Rep   ,85
+Democratic ,88
+Federalist ,90
+Republican ,90
+
+(33 rows affected)
+
+death_age,
+46,1
+49,1
+53,1
+56,2
+57,1
+58,1
+60,2
+63,2
+64,1
+65,2
+66,1
+67,3
+68,1
+70,1
+71,2
+72,1
+73,1
+74,1
+77,1
+78,1
+79,2
+80,1
+83,1
+85,1
+88,1
+90,2
+
+(26 rows affected)
+
+party,,
+Demo-Rep   ,85,73
+Democratic ,88,46
+Federalist ,90,67
+Republican ,90,49
+Whig       ,74,65
+Warning: Null value is eliminated by an aggregate or other SET operation.
+
+(5 rows affected)
+
+state_born,,,,
+California     ,1,NULL,5,5
+Georgia        ,1,NULL,4,4
+Illinois       ,1,NULL,3,3
+Iowa           ,1,90,4,4
+Kentucky       ,1,56,4,4
+Massachusetts  ,3,72,4,2
+Missouri       ,1,88,7,7
+Nebraska       ,1,NULL,2,2
+New Hampshire  ,1,64,4,4
+New Jersey     ,1,71,8,8
+New York       ,4,69,12,2
+North Carolina ,2,59,4,3
+Ohio           ,7,62,8,0
+Pensylvania    ,1,77,4,4
+South Carolina ,1,78,8,8
+Texas          ,2,72,8,5
+Vermont        ,2,58,5,3
+Virginia       ,8,72,8,0
+Warning: Null value is eliminated by an aggregate or other SET operation.
+
+(18 rows affected)
+
+vice_pres_name,pres_name
+Calhoun J       ,Adams J Q       
+Calhoun J       ,Jackson A       
+Clinton G       ,Jefferson T     
+Clinton G       ,Madison J       
+
+(4 rows affected)
+
+
+Completion time: 2020-02-23T22:25:44.8936447+07:00

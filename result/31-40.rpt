@@ -1,0 +1,119 @@
+﻿MAX_,MIN_
+19.047619047619,0
+
+(1 row affected)
+
+election_year,candidate
+1980,Reagan R        
+1980,Carter J        
+1976,Ford G R        
+1976,Carter J E      
+1972,Nixon R M       
+1972,McGovern G S    
+1972,Hospers J       
+1968,Wallace G C     
+1968,Nixon R M       
+1968,Humphrey H H    
+1964,Johnson L B     
+1964,Goldwater B     
+1960,Nixon R M       
+1960,Kennedy J F     
+1960,Byrd            
+1956,Stevenson A     
+1956,Jones W B       
+1956,Eisenhower D D  
+1952,Stevenson A     
+1952,Eisenhower D D  
+1948,Truman H S      
+1948,Thurmond J S    
+1948,Dewey T E       
+1944,Roosevelt F D   
+1944,Dewey T E       
+1940,Wilkie W L      
+1940,Roosevelt F D   
+1936,Roosevelt F D   
+1936,Landon A M      
+1932,Roosevelt F D   
+1932,Hoover H C      
+1928,Smith A E       
+1928,Hoover H C      
+1924,La Follette R M 
+1924,Davis J W       
+1924,Coolidge C      
+1920,Harding W G     
+1920,Cox W W         
+1916,Wilson W        
+1916,Hughes C E      
+1912,Wilson W        
+1912,Taft W H        
+1912,Roosevelt T     
+1908,Taft W H        
+1908,Bryan W J       
+1904,Roosevelt T     
+1904,Parker A B      
+
+(47 rows affected)
+
+election_year,candidate
+1980,Reagan R        
+1980,Carter J        
+
+(2 rows affected)
+
+pres_name,,
+Fillmore M      ,26,58
+Harrison B      ,20,62
+Tyler J         ,23,54
+Wilson W        ,28,58
+
+(4 rows affected)
+
+election_year,
+1872,5
+1892,3
+1912,3
+1924,3
+1948,3
+1956,3
+1960,3
+1968,3
+1972,3
+
+(9 rows affected)
+
+,
+30,24
+
+(1 row affected)
+
+
+3
+
+(1 row affected)
+
+pres_name,,
+Harrison B      ,3,20
+Johnson A       ,5,18
+
+(2 rows affected)
+
+pres_name,,
+Cleveland G     ,5,49
+Kennedy J F     ,3,36
+Madison J       ,0,43
+
+(3 rows affected)
+
+pres_name,pr_age,mar_year
+Fillmore M      ,58,1858
+Harding W G     ,25,1891
+Jackson A       ,26,1794
+Madison J       ,43,1794
+Polk J K        ,28,1824
+Washington G    ,26,1759
+Wilson W        ,58,1915
+
+(7 rows affected)
+
+
+Completion time: 2020-02-23T22:22:34.8505326+07:00

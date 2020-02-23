@@ -26,16 +26,16 @@ and administration.year_inaugurated = (select min(year_inaugurated)
 
 -- 73.	Shows the names of the youngest presidents when they take position for the first time.
  
-select PS.pres_name , (AD.year_inaugurated - PS.birth_yr) as YEAR
+select PS.pres_name , (AD.year_inaugurated - PS.birth_yr) 
 from administration AD , president PS
 where AD.pres_name = PS.pres_name
-group by PS.pres_name , YEAR
+group by PS.pres_name ,(AD.year_inaugurated - PS.birth_yr) 
 having AD.year_inaugurated - PS.birth_yr = (select MIN(UP.YE)
   	  from(
-   		 select AD.pres_name as ADP, (AD.year_inaugurated - PS.birth_yr) as YE
+   		 select AD.pres_name as ADP, (AD.year_inaugurated - PS.birth_yr) 
    		 from administration AD , president PS
    		 where AD.pres_name = PS.pres_name
-   		 group by AD.pres_name , YE
+   		 group by AD.pres_name , (AD.year_inaugurated - PS.birth_yr)
    	 )  as UP
     )
 

@@ -1,0 +1,206 @@
+﻿admin_nr,
+47,3
+
+(1 row affected)
+
+admin_nr,
+14,2
+16,2
+20,2
+24,2
+29,2
+34,2
+40,2
+44,2
+47,2
+
+(9 rows affected)
+
+pres_name,
+Adams J         ,1797
+Adams J Q       ,1825
+Arthur C A      ,1881
+Buchanan J      ,1857
+Carter J E      ,1977
+Cleveland G     ,1885
+Coolidge C      ,1923
+Eisenhower D D  ,1953
+Fillmore M      ,1850
+Ford G R        ,1974
+Garfield J A    ,1881
+Grant U S       ,1869
+Harding W G     ,1921
+Harrison B      ,1889
+Harrison W H    ,1841
+Hayes R B       ,1877
+Hoover H C      ,1929
+Jackson A       ,1829
+Jefferson T     ,1801
+Johnson A       ,1865
+Johnson L B     ,1963
+Kennedy J F     ,1961
+Lincoln A       ,1861
+Madison J       ,1809
+McKinley W      ,1897
+Monroe J        ,1817
+Nixon R M       ,1969
+Pierce F        ,1853
+Polk J K        ,1845
+Reagan R        ,1981
+Roosevelt F D   ,1933
+Roosevelt T     ,1901
+Taft W H        ,1909
+Taylor Z        ,1849
+Truman H S      ,1945
+Tyler J         ,1841
+Van Buren M     ,1837
+Washington G    ,1789
+Wilson W        ,1913
+
+(39 rows affected)
+
+hobby,
+Billiards           ,2
+Boxing              ,1
+Bridge              ,1
+Croquet             ,1
+Driving             ,1
+Fishing             ,9
+Golf                ,6
+Hunting             ,3
+Indian Clubs        ,1
+Jujitsu             ,1
+Mechanical Horse    ,1
+Medicine Ball       ,1
+Painting            ,1
+Pitching Hay        ,1
+Poker               ,2
+Riding              ,11
+Sailing             ,2
+Shooting            ,2
+Swimming            ,4
+Tennis              ,1
+Touch Football      ,1
+Walking             ,5
+Wrestling           ,1
+
+(23 rows affected)
+
+PRES_NAME,BIRTH_YR,YRS_SERV,DEATH_AGE,PARTY,STATE_BORN
+Cleveland G     ,1837,8,71,Democratic ,New Jersey     
+Eisenhower D D  ,1890,8,79,Republican ,Texas          
+Grant U S       ,1822,8,63,Republican ,Ohio           
+Jackson A       ,1767,8,78,Democratic ,South Carolina 
+Jefferson T     ,1743,8,83,Demo-Rep   ,Virginia       
+Madison J       ,1751,8,85,Demo-Rep   ,Virginia       
+Monroe J        ,1758,8,73,Demo-Rep   ,Virginia       
+Roosevelt F D   ,1882,12,63,Democratic ,New York       
+Roosevelt T     ,1858,7,60,Republican ,New York       
+Truman H S      ,1884,7,88,Democratic ,Missouri       
+Washington G    ,1732,7,67,Federalist ,Virginia       
+Wilson W        ,1856,8,67,Democratic ,Virginia       
+
+(12 rows affected)
+
+year_entered,
+1776,13
+1791,1
+1792,1
+1796,1
+1803,1
+1812,1
+1816,1
+1817,1
+1818,1
+1819,1
+1820,1
+1821,1
+1836,1
+1837,1
+1845,2
+1846,1
+1848,1
+1850,1
+1858,1
+1859,1
+1861,1
+1863,1
+1864,1
+1867,1
+1876,1
+1889,4
+1890,2
+1896,1
+1907,1
+1912,2
+1959,2
+
+(31 rows affected)
+
+
+13
+
+(1 row affected)
+
+
+2
+
+(1 row affected)
+
+pres_name,
+Adams J         ,5
+Adams J Q       ,4
+Arthur C A      ,3
+Carter J E      ,4
+Cleveland G     ,5
+Ford G R        ,4
+Garfield J A    ,7
+Grant U S       ,4
+Harrison W H    ,10
+Hayes R B       ,8
+Jefferson T     ,6
+Johnson A       ,5
+Kennedy J F     ,3
+Lincoln A       ,4
+Monroe J        ,3
+Pierce F        ,3
+Roosevelt F D   ,6
+Roosevelt T     ,5
+Taft W H        ,3
+Taylor Z        ,6
+Tyler J         ,15
+Van Buren M     ,4
+Wilson W        ,3
+
+(23 rows affected)
+
+PRES_NAME,SPOUSE_NAME,PR_AGE,SP_AGE,NR_CHILDREN,MAR_YEAR
+Adams J         ,Smith A         ,28,19,5,1764
+Adams J Q       ,Johnson L C     ,30,22,4,1797
+Arthur C A      ,Herndon E L     ,29,22,3,1859
+Carter J E      ,Smith R         ,21,18,4,1946
+Cleveland G     ,Folson F        ,49,21,5,1886
+Ford G R        ,Warren E B      ,35,30,4,1948
+Garfield J A    ,Rudolph L       ,26,26,7,1858
+Grant U S       ,Dent J B        ,26,22,4,1848
+Harrison W H    ,Symmes A T      ,22,20,10,1795
+Hayes R B       ,Webb L W        ,30,21,8,1852
+Jefferson T     ,Skelton M W     ,28,23,6,1772
+Johnson A       ,McCardle E      ,18,16,5,1827
+Kennedy J F     ,Bouvier J L     ,36,24,3,1953
+Lincoln A       ,Todd M          ,33,23,4,1842
+Monroe J        ,Kortright E     ,27,17,3,1786
+Pierce F        ,Appleton J M    ,29,28,3,1834
+Roosevelt F D   ,Roosevelt A E   ,23,20,6,1905
+Roosevelt T     ,Carow E K       ,28,25,5,1886
+Taft W H        ,Herron H        ,28,25,3,1886
+Taylor Z        ,Smith M M       ,25,21,6,1810
+Tyler J         ,Christian L     ,23,22,8,1813
+Tyler J         ,Gardiner J      ,54,24,7,1844
+Van Buren M     ,Hoes H          ,24,23,4,1807
+Wilson W        ,Axson E L       ,28,25,3,1885
+
+(24 rows affected)
+
+
+Completion time: 2020-02-23T22:27:53.0329796+07:00

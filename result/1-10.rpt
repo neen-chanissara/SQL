@@ -1,0 +1,317 @@
+﻿pres_name,death_age
+Carter J E      ,NULL
+Ford G R        ,NULL
+Nixon R M       ,NULL
+Reagan R        ,NULL
+Kennedy J F     ,46
+Garfield J A    ,49
+Polk J K        ,53
+Lincoln A       ,56
+Arthur C A      ,56
+Harding W G     ,57
+McKinley W      ,58
+Roosevelt T     ,60
+Coolidge C      ,60
+Grant U S       ,63
+Roosevelt F D   ,63
+Pierce F        ,64
+Johnson L B     ,65
+Taylor Z        ,65
+Johnson A       ,66
+Harrison B      ,67
+Washington G    ,67
+Wilson W        ,67
+Harrison W H    ,68
+Hayes R B       ,70
+Cleveland G     ,71
+Tyler J         ,71
+Taft W H        ,72
+Monroe J        ,73
+Fillmore M      ,74
+Buchanan J      ,77
+Jackson A       ,78
+Eisenhower D D  ,79
+Van Buren M     ,79
+Adams J Q       ,80
+Jefferson T     ,83
+Madison J       ,85
+Truman H S      ,88
+Hoover H C      ,90
+Adams J         ,90
+
+(39 rows affected)
+
+party,pres_name
+Demo-Rep   ,Adams J Q       
+Demo-Rep   ,Jefferson T     
+Demo-Rep   ,Madison J       
+Demo-Rep   ,Monroe J        
+Democratic ,Buchanan J      
+Democratic ,Carter J E      
+Democratic ,Cleveland G     
+Democratic ,Jackson A       
+Democratic ,Johnson A       
+Democratic ,Johnson L B     
+Democratic ,Kennedy J F     
+Democratic ,Pierce F        
+Democratic ,Polk J K        
+Democratic ,Roosevelt F D   
+Democratic ,Truman H S      
+Democratic ,Van Buren M     
+Democratic ,Wilson W        
+Federalist ,Adams J         
+Federalist ,Washington G    
+Republican ,Arthur C A      
+Republican ,Coolidge C      
+Republican ,Eisenhower D D  
+Republican ,Ford G R        
+Republican ,Garfield J A    
+Republican ,Grant U S       
+Republican ,Harding W G     
+Republican ,Harrison B      
+Republican ,Hayes R B       
+Republican ,Hoover H C      
+Republican ,Lincoln A       
+Republican ,McKinley W      
+Republican ,Nixon R M       
+Republican ,Reagan R        
+Republican ,Roosevelt T     
+Republican ,Taft W H        
+Whig       ,Fillmore M      
+Whig       ,Harrison W H    
+Whig       ,Taylor Z        
+Whig       ,Tyler J         
+
+(39 rows affected)
+
+death_age,pres_name
+46,Kennedy J F     
+49,Garfield J A    
+53,Polk J K        
+56,Lincoln A       
+56,Arthur C A      
+57,Harding W G     
+58,McKinley W      
+60,Roosevelt T     
+60,Coolidge C      
+63,Roosevelt F D   
+63,Grant U S       
+64,Pierce F        
+65,Taylor Z        
+65,Johnson L B     
+66,Johnson A       
+67,Wilson W        
+67,Washington G    
+67,Harrison B      
+68,Harrison W H    
+70,Hayes R B       
+71,Tyler J         
+71,Cleveland G     
+72,Taft W H        
+73,Monroe J        
+74,Fillmore M      
+77,Buchanan J      
+78,Jackson A       
+79,Van Buren M     
+79,Eisenhower D D  
+80,Adams J Q       
+83,Jefferson T     
+85,Madison J       
+88,Truman H S      
+90,Hoover H C      
+90,Adams J         
+
+(35 rows affected)
+
+pres_name,spouse_name,pr_age,sp_age
+Johnson A       ,McCardle E      ,18,16
+Harrison B      ,Scott C L       ,20,21
+Carter J E      ,Smith R         ,21,18
+Harrison W H    ,Symmes A T      ,22,20
+Roosevelt T     ,Lee A H         ,22,19
+Roosevelt F D   ,Roosevelt A E   ,23,20
+Tyler J         ,Christian L     ,23,22
+Van Buren M     ,Hoes H          ,24,23
+Hoover H C      ,Henry L         ,24,23
+Harding W G     ,De Wolfe F K    ,25,30
+Eisenhower D D  ,Doud G          ,25,19
+Taylor Z        ,Smith M M       ,25,21
+Washington G    ,Custis M D      ,26,27
+Fillmore M      ,Powers A        ,26,27
+Garfield J A    ,Rudolph L       ,26,26
+Grant U S       ,Dent J B        ,26,22
+Jackson A       ,Robards R D     ,26,26
+Johnson L B     ,Taylor C A      ,26,21
+McKinley W      ,Saxton I        ,27,23
+Monroe J        ,Kortright E     ,27,17
+Nixon R M       ,Ryan T C        ,27,28
+Jefferson T     ,Skelton M W     ,28,23
+Roosevelt T     ,Carow E K       ,28,25
+Taft W H        ,Herron H        ,28,25
+Polk J K        ,Childress S     ,28,20
+Adams J         ,Smith A         ,28,19
+Wilson W        ,Axson E L       ,28,25
+Reagan R        ,Wyman J         ,28,25
+Arthur C A      ,Herndon E L     ,29,22
+Pierce F        ,Appleton J M    ,29,28
+Adams J Q       ,Johnson L C     ,30,22
+Hayes R B       ,Webb L W        ,30,21
+Coolidge C      ,Goodhue G A     ,33,26
+Lincoln A       ,Todd M          ,33,23
+Ford G R        ,Warren E B      ,35,30
+Truman H S      , Wallace E V    ,35,34
+Kennedy J F     ,Bouvier J L     ,36,24
+Reagan R        ,Davis N         ,41,28
+Madison J       ,Todd D D P      ,43,26
+Cleveland G     ,Folson F        ,49,21
+Tyler J         ,Gardiner J      ,54,24
+Wilson W        ,Galt E B        ,58,43
+Fillmore M      ,McIntosh C C    ,58,44
+Harrison B      ,Dimmick M S L   ,62,37
+
+(44 rows affected)
+
+PRES_NAME,BIRTH_YR,YRS_SERV,DEATH_AGE,PARTY,STATE_BORN
+Reagan R        ,1911,3,NULL,Republican ,Illinois       
+
+(1 row affected)
+
+PRES_NAME,BIRTH_YR,YRS_SERV,DEATH_AGE,PARTY,STATE_BORN
+Adams J         ,1735,4,90,Federalist ,Massachusetts  
+Adams J Q       ,1767,4,80,Demo-Rep   ,Massachusetts  
+Arthur C A      ,1830,3,56,Republican ,Vermont        
+Buchanan J      ,1791,4,77,Democratic ,Pensylvania    
+Carter J E      ,1924,4,NULL,Democratic ,Georgia        
+Cleveland G     ,1837,8,71,Democratic ,New Jersey     
+Coolidge C      ,1872,5,60,Republican ,Vermont        
+Eisenhower D D  ,1890,8,79,Republican ,Texas          
+Fillmore M      ,1800,2,74,Whig       ,New York       
+Ford G R        ,1913,2,NULL,Republican ,Nebraska       
+Garfield J A    ,1831,0,49,Republican ,Ohio           
+Grant U S       ,1822,8,63,Republican ,Ohio           
+Harding W G     ,1865,2,57,Republican ,Ohio           
+Harrison B      ,1833,4,67,Republican ,Ohio           
+Harrison W H    ,1773,0,68,Whig       ,Virginia       
+Hayes R B       ,1822,4,70,Republican ,Ohio           
+Hoover H C      ,1874,4,90,Republican ,Iowa           
+Jackson A       ,1767,8,78,Democratic ,South Carolina 
+Jefferson T     ,1743,8,83,Demo-Rep   ,Virginia       
+Johnson A       ,1808,3,66,Democratic ,North Carolina 
+Johnson L B     ,1908,5,65,Democratic ,Texas          
+Kennedy J F     ,1917,2,46,Democratic ,Massachusetts  
+Lincoln A       ,1809,4,56,Republican ,Kentucky       
+Madison J       ,1751,8,85,Demo-Rep   ,Virginia       
+McKinley W      ,1843,4,58,Republican ,Ohio           
+Monroe J        ,1758,8,73,Demo-Rep   ,Virginia       
+Nixon R M       ,1913,5,NULL,Republican ,California     
+Pierce F        ,1804,4,64,Democratic ,New Hampshire  
+Polk J K        ,1795,4,53,Democratic ,North Carolina 
+Roosevelt F D   ,1882,12,63,Democratic ,New York       
+Roosevelt T     ,1858,7,60,Republican ,New York       
+Taft W H        ,1857,4,72,Republican ,Ohio           
+Taylor Z        ,1784,1,65,Whig       ,Virginia       
+Truman H S      ,1884,7,88,Democratic ,Missouri       
+Tyler J         ,1790,3,71,Whig       ,Virginia       
+Van Buren M     ,1782,4,79,Democratic ,New York       
+Washington G    ,1732,7,67,Federalist ,Virginia       
+Wilson W        ,1856,8,67,Democratic ,Virginia       
+
+(38 rows affected)
+
+PRES_NAME,BIRTH_YR,YRS_SERV,DEATH_AGE,PARTY,STATE_BORN
+Kennedy J F     ,1917,2,46,Democratic ,Massachusetts  
+Garfield J A    ,1831,0,49,Republican ,Ohio           
+Polk J K        ,1795,4,53,Democratic ,North Carolina 
+Arthur C A      ,1830,3,56,Republican ,Vermont        
+Lincoln A       ,1809,4,56,Republican ,Kentucky       
+Harding W G     ,1865,2,57,Republican ,Ohio           
+McKinley W      ,1843,4,58,Republican ,Ohio           
+Roosevelt T     ,1858,7,60,Republican ,New York       
+Coolidge C      ,1872,5,60,Republican ,Vermont        
+Grant U S       ,1822,8,63,Republican ,Ohio           
+Roosevelt F D   ,1882,12,63,Democratic ,New York       
+Pierce F        ,1804,4,64,Democratic ,New Hampshire  
+Taylor Z        ,1784,1,65,Whig       ,Virginia       
+Johnson L B     ,1908,5,65,Democratic ,Texas          
+Johnson A       ,1808,3,66,Democratic ,North Carolina 
+Harrison B      ,1833,4,67,Republican ,Ohio           
+Washington G    ,1732,7,67,Federalist ,Virginia       
+Wilson W        ,1856,8,67,Democratic ,Virginia       
+Harrison W H    ,1773,0,68,Whig       ,Virginia       
+
+(19 rows affected)
+
+PRES_NAME,BIRTH_YR,YRS_SERV,DEATH_AGE,PARTY,STATE_BORN
+Eisenhower D D  ,1890,8,79,Republican ,Texas          
+Fillmore M      ,1800,2,74,Whig       ,New York       
+Ford G R        ,1913,2,NULL,Republican ,Nebraska       
+Garfield J A    ,1831,0,49,Republican ,Ohio           
+Grant U S       ,1822,8,63,Republican ,Ohio           
+Harding W G     ,1865,2,57,Republican ,Ohio           
+Harrison B      ,1833,4,67,Republican ,Ohio           
+Harrison W H    ,1773,0,68,Whig       ,Virginia       
+Hayes R B       ,1822,4,70,Republican ,Ohio           
+Hoover H C      ,1874,4,90,Republican ,Iowa           
+Jackson A       ,1767,8,78,Democratic ,South Carolina 
+Jefferson T     ,1743,8,83,Demo-Rep   ,Virginia       
+Johnson A       ,1808,3,66,Democratic ,North Carolina 
+Johnson L B     ,1908,5,65,Democratic ,Texas          
+Kennedy J F     ,1917,2,46,Democratic ,Massachusetts  
+Lincoln A       ,1809,4,56,Republican ,Kentucky       
+Madison J       ,1751,8,85,Demo-Rep   ,Virginia       
+McKinley W      ,1843,4,58,Republican ,Ohio           
+Monroe J        ,1758,8,73,Demo-Rep   ,Virginia       
+
+(19 rows affected)
+
+PRES_NAME,BIRTH_YR,YRS_SERV,DEATH_AGE,PARTY,STATE_BORN
+Adams J         ,1735,4,90,Federalist ,Massachusetts  
+Adams J Q       ,1767,4,80,Demo-Rep   ,Massachusetts  
+Buchanan J      ,1791,4,77,Democratic ,Pensylvania    
+Carter J E      ,1924,4,NULL,Democratic ,Georgia        
+Cleveland G     ,1837,8,71,Democratic ,New Jersey     
+Eisenhower D D  ,1890,8,79,Republican ,Texas          
+Fillmore M      ,1800,2,74,Whig       ,New York       
+Ford G R        ,1913,2,NULL,Republican ,Nebraska       
+Grant U S       ,1822,8,63,Republican ,Ohio           
+Harding W G     ,1865,2,57,Republican ,Ohio           
+Harrison B      ,1833,4,67,Republican ,Ohio           
+Hayes R B       ,1822,4,70,Republican ,Ohio           
+Hoover H C      ,1874,4,90,Republican ,Iowa           
+Jackson A       ,1767,8,78,Democratic ,South Carolina 
+Jefferson T     ,1743,8,83,Demo-Rep   ,Virginia       
+Kennedy J F     ,1917,2,46,Democratic ,Massachusetts  
+Lincoln A       ,1809,4,56,Republican ,Kentucky       
+Madison J       ,1751,8,85,Demo-Rep   ,Virginia       
+McKinley W      ,1843,4,58,Republican ,Ohio           
+Monroe J        ,1758,8,73,Demo-Rep   ,Virginia       
+Pierce F        ,1804,4,64,Democratic ,New Hampshire  
+Polk J K        ,1795,4,53,Democratic ,North Carolina 
+Taft W H        ,1857,4,72,Republican ,Ohio           
+Van Buren M     ,1782,4,79,Democratic ,New York       
+Wilson W        ,1856,8,67,Democratic ,Virginia       
+
+(25 rows affected)
+
+PRES_NAME,BIRTH_YR,YRS_SERV,DEATH_AGE,PARTY,STATE_BORN
+Arthur C A      ,1830,3,56,Republican ,Vermont        
+Coolidge C      ,1872,5,60,Republican ,Vermont        
+Eisenhower D D  ,1890,8,79,Republican ,Texas          
+Ford G R        ,1913,2,NULL,Republican ,Nebraska       
+Garfield J A    ,1831,0,49,Republican ,Ohio           
+Grant U S       ,1822,8,63,Republican ,Ohio           
+Harding W G     ,1865,2,57,Republican ,Ohio           
+Harrison B      ,1833,4,67,Republican ,Ohio           
+Hayes R B       ,1822,4,70,Republican ,Ohio           
+Hoover H C      ,1874,4,90,Republican ,Iowa           
+Lincoln A       ,1809,4,56,Republican ,Kentucky       
+McKinley W      ,1843,4,58,Republican ,Ohio           
+Nixon R M       ,1913,5,NULL,Republican ,California     
+Reagan R        ,1911,3,NULL,Republican ,Illinois       
+Roosevelt T     ,1858,7,60,Republican ,New York       
+Taft W H        ,1857,4,72,Republican ,Ohio           
+
+(16 rows affected)
+
+
+Completion time: 2020-02-23T22:10:55.2697472+07:00

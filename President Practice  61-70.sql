@@ -33,10 +33,15 @@ group by pres_name , year_inaugurated
 select pres_name , count(hobby)
 from pres_hobby
 group by pres_name
-having count(hobby) = (select max(count)
-   			 from (select count(*)
-   			 from pres_hobby
-   			 group by pres_name) as count)
+having count(hobby) = (
+						select max(c)  as b
+   							from (
+									select count(*)as c
+   									from pres_hobby
+   									group by pres_name
+								) as count
+						)
+
 
 -- 65.	Show the term of office of any president, which person has the longest period of service and for how long?
  
@@ -72,11 +77,13 @@ select party ,count(pres_name)
 from president
 where birth_yr > 1850
 group by party
- count(birth_yr) = (select max(count)
-   			 from (select count(birth_yr)
-   			 from president
-   			 where birth_yr > 1850
-   			 group by party ) as count)
+ having count(birth_yr) = (
+							select max(b)
+   							 from (	select count(birth_yr)as b
+   									 from president
+   									 where birth_yr > 1850
+   									 group by party 
+								) as count)
 
 
 -- 69.	Lists the names of the President, the number of years in office for the longest-serving President.

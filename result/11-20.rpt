@@ -1,0 +1,147 @@
+﻿pres_name        spouse_name      nr_children
+---------------- ---------------- -----------
+Garfield J A     Rudolph L        7
+Harrison W H     Symmes A T       10
+Hayes R B        Webb L W         8
+Jefferson T      Skelton M W      6
+Roosevelt F D    Roosevelt A E    6
+Taylor Z         Smith M M        6
+Tyler J          Christian L      8
+Tyler J          Gardiner J       7
+
+(8 rows affected)
+
+pres_name        spouse_name      pr_age sp_age
+---------------- ---------------- ------ ------
+Adams J          Smith A          28     19
+Carter J E       Smith R          21     18
+Eisenhower D D   Doud G           25     19
+Harrison W H     Symmes A T       22     20
+Monroe J         Kortright E      27     17
+Polk J K         Childress S      28     20
+Roosevelt F D    Roosevelt A E    23     20
+Roosevelt T      Lee A H          22     19
+
+(8 rows affected)
+
+pres_name        spouse_name      pr_age sp_age
+---------------- ---------------- ------ ------
+Garfield J A     Rudolph L        26     26
+Jackson A        Robards R D      26     26
+
+(2 rows affected)
+
+
+-----------
+30
+
+(1 row affected)
+
+
+-----------
+2
+
+(1 row affected)
+
+
+-----------
+403
+
+(1 row affected)
+
+
+-----------
+49
+
+(1 row affected)
+
+
+-----------
+77
+
+(1 row affected)
+
+candidate
+----------------
+Adams S         
+Armstrong J     
+Bell J          
+Blaine J G      
+Breckinridge J  
+Brown B G       
+Bryan W J       
+Burr A          
+Byrd            
+Carter J        
+Cass L          
+Clay H          
+Clinton G       
+Cox W W         
+Crawford W H    
+Davis D         
+Davis J W       
+Dewey T E       
+Douglas S       
+Ellsworth O     
+Fillmore M      
+Floyd J         
+Ford G R        
+Fremont J C     
+Goldwater B     
+Hancock J       
+Hancock W S     
+Harrison R H    
+Hendricks T A   
+Henry J         
+Hospers J       
+Hughes C E      
+Humphrey H H    
+Huntington S    
+Iredell J       
+Jay J           
+Jenkins C J     
+Johnson S       
+Jones W B       
+King R          
+La Follette R M 
+Landon A M      
+Lincoln B       
+Mangum W P      
+McClellan G B   
+McGovern G S    
+Milton J        
+Parker A B      
+Pinckney C C    
+Pinckney T      
+Rutledge J      
+Scott, W        
+Seymour H       
+Smith A E       
+Stevenson A     
+Telfair E       
+Thurmond J S    
+Tilden S J      
+Wallace G C     
+Weaver J B      
+Webster D       
+White H L       
+Wilkie W L      
+Wirt W          
+
+(64 rows affected)
+
+
+-----------
+13
+
+(1 row affected)
+
+
+-----------
+69
+Warning: Null value is eliminated by an aggregate or other SET operation.
+
+(1 row affected)
+
+
+Completion time: 2020-02-23T22:09:58.7055695+07:00

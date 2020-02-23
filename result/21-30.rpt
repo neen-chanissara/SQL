@@ -1,0 +1,97 @@
+﻿pres_name,
+Adams J         ,1
+Adams J Q       ,1
+Arthur C A      ,1
+Carter J E      ,1
+Cleveland G     ,1
+Coolidge C      ,1
+Eisenhower D D  ,1
+Fillmore M      ,2
+Ford G R        ,1
+Garfield J A    ,1
+Grant U S       ,1
+Harding W G     ,1
+Harrison B      ,2
+Harrison W H    ,1
+Hayes R B       ,1
+Hoover H C      ,1
+Jackson A       ,1
+Jefferson T     ,1
+Johnson A       ,1
+Johnson L B     ,1
+Kennedy J F     ,1
+Lincoln A       ,1
+Madison J       ,1
+McKinley W      ,1
+Monroe J        ,1
+Nixon R M       ,1
+Pierce F        ,1
+Polk J K        ,1
+Reagan R        ,2
+Roosevelt F D   ,1
+Roosevelt T     ,2
+Taft W H        ,1
+Taylor Z        ,1
+Truman H S      ,1
+Tyler J         ,2
+Van Buren M     ,1
+Washington G    ,1
+Wilson W        ,2
+
+(38 rows affected)
+
+
+2
+
+(1 row affected)
+
+
+58
+
+(1 row affected)
+
+
+39
+
+(1 row affected)
+
+
+16
+
+(1 row affected)
+
+pres_name,spouse_name,nr_children
+Adams J         ,Smith A         ,5
+Carter J E      ,Smith R         ,4
+Eisenhower D D  ,Doud G          ,2
+Johnson A       ,McCardle E      ,5
+Monroe J        ,Kortright E     ,3
+Roosevelt T     ,Lee A H         ,1
+
+(6 rows affected)
+
+
+6
+
+(1 row affected)
+
+
+30
+
+(1 row affected)
+
+
+6
+
+(1 row affected)
+
+PRES_NAME,SPOUSE_NAME,PR_AGE,SP_AGE,NR_CHILDREN,MAR_YEAR
+Fillmore M      ,Powers A        ,26,27,2,1826
+Harrison B      ,Scott C L       ,20,21,2,1853
+Nixon R M       ,Ryan T C        ,27,28,2,1940
+Washington G    ,Custis M D      ,26,27,0,1759
+
+(4 rows affected)
+
+
+Completion time: 2020-02-23T22:21:13.5100655+07:00

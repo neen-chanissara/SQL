@@ -1,0 +1,152 @@
+﻿pres_name,yrs_serv,
+Cleveland G     ,8,664
+Jackson A       ,8,496
+Jefferson T     ,8,307
+Nixon R M       ,5,1040
+Roosevelt T     ,7,424
+Washington G    ,7,203
+
+(6 rows affected)
+
+pres_name,yrs_serv,
+Adams J         ,4,71
+Adams J Q       ,4,84
+Buchanan J      ,4,174
+Carter J E      ,4,297
+Cleveland G     ,8,248
+Coolidge C      ,5,382
+Eisenhower D D  ,8,449
+Garfield J A    ,0,214
+Grant U S       ,8,250
+Harding W G     ,2,404
+Harrison B      ,4,233
+Harrison W H    ,0,234
+Hayes R B       ,4,185
+Hoover H C      ,4,444
+Jackson A       ,8,198
+Jefferson T     ,8,117
+Johnson L B     ,5,486
+Kennedy J F     ,2,303
+Lincoln A       ,4,196
+Madison J       ,8,125
+McKinley W      ,4,281
+Monroe J        ,8,207
+Nixon R M       ,5,410
+Pierce F        ,4,254
+Polk J K        ,4,170
+Reagan R        ,3,489
+Roosevelt F D   ,12,469
+Roosevelt T     ,7,336
+Taft W H        ,4,321
+Taylor Z        ,1,163
+Truman H S      ,7,303
+Van Buren M     ,4,170
+Washington G    ,7,100
+Wilson W        ,8,356
+
+(34 rows affected)
+
+pres_name,year_inaugurated,
+Washington G    ,1789,1
+Washington G    ,1793,1
+Adams J         ,1797,4
+Jefferson T     ,1801,2
+Jefferson T     ,1805,2
+Adams J Q       ,1825,1
+Jackson A       ,1829,1
+Jackson A       ,1833,1
+Van Buren M     ,1837,1
+Harrison W H    ,1841,1
+Fillmore M      ,1850,1
+Cleveland G     ,1885,1
+Harrison B      ,1889,1
+Cleveland G     ,1893,1
+Roosevelt T     ,1901,1
+Roosevelt T     ,1905,1
+Taft W H        ,1909,1
+Hoover H C      ,1929,1
+Nixon R M       ,1969,1
+Nixon R M       ,1973,1
+Ford G R        ,1974,1
+
+(21 rows affected)
+
+pres_name,
+Roosevelt T     ,7
+
+(1 row affected)
+
+pres_name,yrs_serv
+Roosevelt F D   ,12
+
+(1 row affected)
+
+state_name,year_entered
+Connecticut    ,1776
+Delaware       ,1776
+Georgia        ,1776
+Maryland       ,1776
+Massachusetts  ,1776
+Montana        ,1889
+New Hampshire  ,1776
+New Jersey     ,1776
+New York       ,1776
+North Carolina ,1776
+North Dakota   ,1889
+Pensylvania    ,1776
+Rhode Island   ,1776
+South Carolina ,1776
+South Dakota   ,1889
+Virginia       ,1776
+Washington     ,1889
+
+(17 rows affected)
+
+STATE_NAME,ADMIN_ENTERED,YEAR_ENTERED
+Alabama        ,8,1819
+Alaska         ,43,1959
+Arizona        ,31,1912
+Arkansas       ,12,1836
+Hawaii         ,43,1959
+Idaho          ,26,1890
+Illinois       ,8,1818
+Iowa           ,15,1846
+Kansas         ,18,1861
+Kentucky       ,1,1792
+Maine          ,8,1820
+Michigan       ,12,1837
+Minnesota      ,18,1858
+Mississippi    ,8,1817
+Montana        ,26,1889
+Nevada         ,19,1864
+New Mexico     ,31,1912
+North Dakota   ,26,1889
+Oregon         ,18,1859
+South Dakota   ,26,1889
+Texas          ,15,1845
+Vermont        ,1,1791
+Washington     ,26,1889
+West Virginia  ,19,1863
+Wisconsin      ,15,1848
+Wyoming        ,26,1890
+
+(26 rows affected)
+
+party,
+Republican ,9
+
+(1 row affected)
+
+pres_name,yrs_serv
+Roosevelt F D   ,12
+
+(1 row affected)
+
+party,
+Democratic ,6
+Republican ,9
+
+(2 rows affected)
+
+
+Completion time: 2020-02-23T22:32:17.9094746+07:00

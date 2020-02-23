@@ -48,11 +48,12 @@ where year_entered = 1776
 
 -- 58.	Shows the average number of hobbies of the president.
  
-SELECT AVG(COUNT)
-FROM ( SELECT COUNT(HOBBY)
- FROM PRES_HOBBY
- GROUP BY HOBBY) AS COUNT
-
+SELECT AVG(c.hob)
+FROM ( 
+		SELECT COUNT(HOBBY)as hob
+		FROM PRES_HOBBY
+		GROUP BY HOBBY
+		) as c
 
 -- 59.	Show names of any president who has more than 2 children.
 

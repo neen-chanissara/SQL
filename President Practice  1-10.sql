@@ -37,7 +37,7 @@ order by pres_name
 select *
 from president
 where death_age < 70
-
+order by death_age
 
 -- 8.	Shows the names of the presidents named between 'Eisenhower' AND 'Nixon', sorted by name of the president.
 select *
@@ -54,10 +54,7 @@ where yrs_serv IN (2,4,6,8)
 
 --10.	Shows details of the president of the 'Republican' party, ordered by name.
  
-
 select * 
 from president
 where party = 'Republican'
 order by pres_name asc
-
-
