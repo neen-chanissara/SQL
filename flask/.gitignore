@@ -1,0 +1,11 @@
+src/models/db_conn.py
+src/__pycache__/
+src/controllers/__pycache__/
+src/models/__pycache__/
+src/test/
+src/controllers/__pycache__/emp.cpython-37.pyc
+src/controllers/__pycache__/profile.cpython-37.pyc
+src/controllers/__pycache__/std.cpython-37.pyc
+src/__pycache__/__init__.cpython-37.pyc
+src/models/__pycache__/db_conn.cpython-37.pyc
+src/models/__pycache__/log.cpython-37.pyc

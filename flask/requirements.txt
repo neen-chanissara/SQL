@@ -1,0 +1,9 @@
+# Flask==1.1.1
+flask
+flask_restful
+pyodbc
+Flask-SQLAlchemy
+flask-marshmallow
+marshmallow-sqlalchemy
+Flask-Limiter
+# pyopenssl
